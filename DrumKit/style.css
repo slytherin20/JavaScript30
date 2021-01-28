@@ -1,0 +1,35 @@
+body{
+    background-image: url('images/taylor.jpeg');
+    color:white;
+    font-weight: bold;
+}
+.container{
+    height: 90vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.alphabet{
+    font-size: 2em;
+}
+.sound{
+    color:yellow;
+}
+.key{
+    display:flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 10px;
+    width: 50px;
+    border: solid 2px white;
+    border-radius:25%;
+    transition: all 1.007s;
+}
+.playing{
+    transform: scale(1.1);
+    border: solid 5px yellow;
+    box-shadow: 2px 2px 5px 5px gold;
+}
