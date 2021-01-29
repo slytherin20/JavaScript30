@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+}
+.clock{
+    position: relative;
+    top: 30vh;
+    left: 40vw;;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border: solid 10px red;
+}
+.hand{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width:80px;
+    height:0;
+    border-bottom: solid 4px white;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.07s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.sec-hand{
+    border-bottom: solid 1px white;
+}
+.hour-hand{
+    width: 60px;
+    left: 40px;
+}
