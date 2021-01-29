@@ -10,7 +10,7 @@ window.addEventListener('keydown',(e)=>{ //keydown event listener listens when u
 });
 
 function removeTransition(e){
-    if(e.propertyName == 'transform') return; //As for each key there are multiple transitionEvents
+    if(e.propertyName != 'transform') return; //As for each key there are multiple transitionEvents
     //therefore choosing the longest one to remove the clas playing.
     this.classList.remove('playing');
 }
